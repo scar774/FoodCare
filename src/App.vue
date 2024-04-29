@@ -10,7 +10,6 @@ import { SpeedInsights } from '@vercel/speed-insights/vue';
 </template>
 
 <script>
-import { SpeedInsights } from '@vercel/speed-insights/vue';
 import HelloWorld from './components/HelloWorld.vue'
 
 
