@@ -1,9 +1,11 @@
 <template>
   <img alt="FoodCare logo" src="./assets/LogoTransparente.png">
   <HelloWorld msg="Welcome to FoodCare"/>
+  <SpeedInsights />
 </template>
 
 <script>
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 import HelloWorld from './components/HelloWorld.vue'
 
 
@@ -14,14 +16,6 @@ export default {
   }
 }
 </script>
-
-<script setup>
-import { SpeedInsights } from '@vercel/speed-insights/vue';
-</script>
- 
-<template>
-  <SpeedInsights />
-</template>
 
 <style>
 #app {
