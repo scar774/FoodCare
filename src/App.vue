@@ -15,6 +15,14 @@ export default {
 }
 </script>
 
+<script setup>
+import { SpeedInsights } from '@vercel/speed-insights/vue';
+</script>
+ 
+<template>
+  <SpeedInsights />
+</template>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
