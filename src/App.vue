@@ -1,7 +1,7 @@
 
-<!--<script setup>
+<script setup>
 import { SpeedInsights } from '@vercel/speed-insights/vue';
-</script>-->
+</script>
 
 <template>
   <div class="image-container">
@@ -9,7 +9,7 @@ import { SpeedInsights } from '@vercel/speed-insights/vue';
   </div>
   
   <HelloWorld msg="Welcome to FoodCare"/>
-  <!--<SpeedInsights />-->
+  <SpeedInsights />
 </template>
 
 <script>
